@@ -1,0 +1,14 @@
+#comandos spring-boot
+java -Dspring.profiles.active=dev  -jar target/app-api-1.0.2.jar 
+mvn clean compile package spring-boot:run -Drun.jvmArguments="-Dspring.profiles.active=dev"
+java -Xms512m -Xmx2g -jar /opt/applications/app.jar
+
+#comandos para rodar java.jar
+java -Xms512m -Xmx2g -jar /opt/applications/app.jar
+java -Xms512m -Xmx2g -jar app.jar
+java -Xms512m -Xmx2g -jar  /home/usuario/.m2/repository/br/com/2.0.8/app-2.0.8.jar
+java -Xmx1536g -jar /opt/applications/app.jar
+
+#apos o maven install ele envia para este diretorio target =>
+java -Xms512m -Xmx2g -jar  /home/usuario/NetBeansProjects/app/Code/job/target/app-2.0.8.jar
+
