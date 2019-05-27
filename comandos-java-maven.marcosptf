@@ -12,3 +12,7 @@ java -Xmx1536g -jar /opt/applications/app.jar
 #apos o maven install ele envia para este diretorio target =>
 java -Xms512m -Xmx2g -jar  /home/usuario/NetBeansProjects/app/Code/job/target/app-2.0.8.jar
 
+#comandos maven
+mvn clean validate compile test package verify install site
+https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+
