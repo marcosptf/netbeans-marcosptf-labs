@@ -24,3 +24,9 @@ http://localhost:4848/common/index.jsf
 #abrir via tailf o aruqivo de server.log para acompanhar a execucao
 tail -f /glassfish4/glassfish/domains/domain1/logs/server.log &
 mv -fv javaApp.ear glassfish4/glassfish/domains/domain1/autodeploy/
+
+#realizando start stop do glassfish
+cd glassfish4/glassfish/bin
+./startserv &
+./stopserv &
+
