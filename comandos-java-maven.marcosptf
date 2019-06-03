@@ -18,3 +18,8 @@ https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
 
 #glassfish painel para admin
 http://localhost:4848/common/index.jsf
+
+#realizando deploy no glassfish via cli
+#o glassfish jah estando startado enviar o aruqvo javaApp.ear para este diretorio abaixo
+#abrir via tailf o aruqivo de server.log para acompanhar a execucao
+mv -fv javaApp.ear glassfish4/glassfish/domains/domain1/autodeploy/
