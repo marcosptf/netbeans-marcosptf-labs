@@ -16,3 +16,5 @@ java -Xms512m -Xmx2g -jar  /home/usuario/NetBeansProjects/app/Code/job/target/ap
 mvn clean validate compile test package verify install site
 https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
 
+#glassfish painel para admin
+http://localhost:4848/common/index.jsf
