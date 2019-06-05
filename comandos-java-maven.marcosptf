@@ -1,3 +1,8 @@
+#erro na instalacao do netbens quando n consegue achar o jdk instalado na maquina
+#precisamos entrar no arquvo abaixo para configurar na mao o caminho usado na maquina:
+vim etc/netbeans.conf
+
+
 #comandos spring-boot
 java -Dspring.profiles.active=dev  -jar target/app-api-1.0.2.jar 
 mvn clean compile package spring-boot:run -Drun.jvmArguments="-Dspring.profiles.active=dev"
