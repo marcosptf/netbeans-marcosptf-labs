@@ -1,6 +1,7 @@
 <!--
 example build file from docs ant:
 https://ant.apache.org/manual-1.9.x/index.html
+we need to create a new build.xml and make examples from and doc website
 -->
 
 <project name="MyProject" default="dist" basedir=".">
