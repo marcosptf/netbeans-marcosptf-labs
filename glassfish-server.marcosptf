@@ -1,0 +1,48 @@
+#official-doc
+https://javaee.github.io/glassfish/
+
+#glassfish painel para admin
+http://localhost:4848/common/index.jsf
+http://localhost:3700 => i dont know :-(
+http://localhost:8080 => app
+http://localhost:8181 => app
+
+########################################################
+#realizando deploy no glassfish via cli                #
+#o glassfish jah estando startado enviar o arquivo     #
+#javaApp.ear para este diretorio abaixo                #
+#abrir via tailf o aruqivo de server.log               #
+########################################################
+tail -f /glassfish4/glassfish/domains/domain1/logs/server.log &
+mv -fv javaApp.ear glassfish4/glassfish/domains/domain1/autodeploy/
+
+#realizando start stop do glassfish
+cd glassfish4/glassfish/bin
+./startserv &
+./stopserv &
+
+
+#########################################################################
+#realizando deploy de aplicacao java EE arquivo.ear no glassfish painel #
+#########################################################################
+#realiza o start do servidor 
+cd glassfish4/glassfish/bin
+./startserv &
+#sobe o tailf
+tail -f /glassfish4/glassfish/domains/domain1/logs/server.log &
+#primeiro acesa o painel
+http://localhost:4848/common/index.jsf
+#menu applications => procurar o arquivo app.ear para upload
+#selecionar no type de application
+Enterprise aplication
+#desabilita a opcao
+Implicit CDI 
+#habilita a opcao
+status => habilitado
+#habilita a opcao:
+Force Redeploy
+#clica okey para fazer o deploy
+
+
+
+
