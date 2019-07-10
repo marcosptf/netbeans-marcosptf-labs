@@ -21,6 +21,10 @@ cd glassfish4/glassfish/bin
 ./startserv &
 ./stopserv &
 
+#para descobrir se ele esta rodando:
+netstat -ntpl | grep 48
+tcp6       0      0 :::4848                 :::*                    LISTEN      11027/java
+
 
 #########################################################################
 #realizando deploy de aplicacao java EE arquivo.ear no glassfish painel #
