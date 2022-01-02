@@ -1,7 +1,30 @@
 contribute with netbeans
 
-+tutorial to write plugins
+##################################
+#central plugins apache netbeans
+https://plugins.netbeans.apache.org/
+
++livro apache netbeans
+Pro Apache NetBeans
+https://link.springer.com/book/10.1007/978-1-4842-5370-0
+
++add lang support to netbens apache
+https://cwiki.apache.org/confluence/display/NETBEANS/Adding+New+Language+Support
+https://javacc.github.io/javacc/
+https://www.antlr.org/
+https://langserver.org/
+
+
++tutoriais para criar plugins
 https://platform.netbeans.org/tutorials/nbm-google.html
+https://dzone.com/articles/how-write-netbeans-plugin
+https://silveiraneto.net/2008/02/24/netbeans-your-first-plugin/
+-netbeans plataform aplication
+https://netbeans.apache.org/tutorials/nbm-quick-start.html
+-netbeans with dukescript
+https://netbeans.apache.org/tutorials/nbm-dukescript.html
+https://dukescript.com/getting_started.html
+https://netbeans.apache.org/kb/docs/platform/
 
 +tutorial how to write modules with netbeans
 https://platform.netbeans.org/tutorials/nbm-quick-start.html
