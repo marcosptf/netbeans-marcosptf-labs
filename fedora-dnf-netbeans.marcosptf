@@ -6,3 +6,6 @@ export JAVA_HOME="/usr/java/jdk1.8.0_171-amd64/"
 export CLASSPATH="$JAVA_HOME/lib":$CLASSPATH
 export PATH="$JAVA_HOME/bin":$PATH
 export MANPATH="$JAVA_HOME/man":$MANPATH 
+
+#instalar java 
+sudo dnf install -y java-1.8.0-openjdk* java-11-openjdk* java-17-openjdk* icedtea-web* 
